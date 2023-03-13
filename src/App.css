@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+
+.phone-picture {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.phone-container {
+  background-color: white;
+
+  width: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+
+.phone-name {
+  padding: 16px;
+  font-size: 28px;
+  margin-bottom: 0px;
+
+  font-weight: bold;
+}
+
+.phone-company {
+  padding: 16px; 
+  font-size: 22px;
+  color: grey;
+  /* font-weight: bold; */
+   margin-top: 0px; 
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Roboto;
+  margin: 16px;
+}
+
+.phone-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0px auto;
+}
